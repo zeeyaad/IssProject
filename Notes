@@ -1,0 +1,10 @@
+// To Prevent DOS attacks "Brute Force and Spam"
+  //  Use rate limiting
+    //   /login → 5 attempts / 15 mins
+    // /register → 3 per hour
+    // /oauth → 10 per 15 mins
+    // /vault → 30/min
+    // /search → 10/min
+// Ecryption Algorithm 
+  //  aes-256-gcm
+  //  AuditLog() ensures every action is traceable
